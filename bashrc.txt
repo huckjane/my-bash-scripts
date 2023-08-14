@@ -1,0 +1,12 @@
+#!/bin/bash
+# This is a list of regularly used aliases
+
+
+alias mbs='cd ~/Desktop/my-bash-scripts;ls'
+alias ll='ls -l'
+alias cs='cd;ls'
+
+
+
+
+echo "Aliases enabled or not"

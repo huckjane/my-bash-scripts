@@ -8,8 +8,6 @@ echo
 echo The current date and time is:
 date
 echo
-echo "Users currently logged in are: " 
-who
 
 echo
 echo User info for userid: $USER
@@ -19,8 +17,14 @@ echo HOME: $HOME
 # Version History
 echo 
 startdate=1
-i=$((startdate + .01))
-echo i
+$(i)=$((startdate + 1))
+echo $(i)
 echo
+
+curl https://techcrunch.com/category/security/
+# wget
+echo wget https://techcrunch.com/category/security/
+
+
 
 # Output Direction
