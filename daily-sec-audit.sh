@@ -34,7 +34,7 @@ echo JOBS
 jobs -l
 
 # Command History
-echo 'Command History:'
+echo ' Command History:'
 history
 echo
 
