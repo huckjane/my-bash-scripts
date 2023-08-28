@@ -1,10 +1,13 @@
 #!/bin/bash
 # This is a list of regularly used aliases
 
-
-alias mbs='cd ~/Desktop/my-bash-scripts;ls'
-alias ll='ls -l'
+alias ll='ls -l --color=auto'
 alias cs='cd;ls'
+alias mbs='cd ~/Desktop/my-bash-scripts;ls'
+alias al='cd; vim .bashrc'      
+alias brc='. ~/.bashrc'
+
+
 
 
 
